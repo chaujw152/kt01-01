@@ -1,0 +1,229 @@
+
+body {
+    background-image: url(https://cdn.glitch.global/e767341c-15a7-42c1-98ae-1d727508f31c/2709d01ab9730c749dccbb08dd6e8e18.jpg?v=1714889150711); /* The image used for background*/
+ 
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.image-container {
+  text-align: center;
+  width: 100%;
+}
+
+.links-container {
+  display: flex;
+  flex-direction: column;
+  jusify-content: center;
+  align-items: center;
+}
+
+.link {
+  min-width: 50% !important;
+}
+
+@media (min-width: 1200px) .container {
+  max-width: 1140px;
+}
+@media (min-width: 992px) .container {
+  max-width: 960px;
+}
+@media (min-width: 768px) {
+.container {
+    max-width: 720px;
+  }
+
+.link {
+    width: 100%;
+  }
+}
+@media (min-width: 576px) {
+.container {
+    max-width: 540px;
+  }
+
+.btn {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Green */
+.success {
+  border-color: #04AA6D;
+  color: green;
+}
+
+.success:hover {
+  background-color: #04AA6D;
+  color: white;
+}
+
+/* Blue */
+.info {
+  border-color: #2196F3;
+  color: dodgerblue;
+}
+
+.info:hover {
+  background: #2196F3;
+  color: white;
+}
+
+/* Orange */
+.warning {
+  border-color: #ff9800;
+  color: orange;
+}
+
+.warning:hover {
+  background: #ff9800;
+  color: white;
+}
+
+/* Red */
+.danger {
+  border-color: #f44336;
+  color: red;
+}
+
+.danger:hover {
+  background: #f44336;
+  color: white;
+}
+
+/* Gray */
+.default {
+  border-color: #e7e7e7;
+  color: black;
+}
+
+.default:hover {
+  background: #e7e7e7;
+  
+  }
+button {
+  background-color: #FFC0CB;/*màu sắc*/
+  color: white;
+  padding: 20px 10px;/* điều chỉnh độ dài và độ rộng*/
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 20%;
+  font-family: Helvetica;
+   font-weight: bold;
+  font-size:15px;
+}
+  button:hover {
+  opacity: 0.8;/* độ đậm nhạt */
+    background-color:
+}
+  h2 {
+    font-family:Helvetica;
+    font-color:pink;
+  }
+  
+   body {
+    color: #333;
+    font-family: Helvetica,sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Layout */
+  .tag-list {
+    margin: 30px auto;
+    width: 300px;
+  }
+  .tag-list h2 {
+    font-size: 20px;
+    margin-bottom: 26px;
+  }
+  .tag-list ul li {
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-right: 10px;
+  }
+  .tag-list ul li a {
+    background-color: #01bacf;
+    border-radius: 2px;
+    color: #fff;
+    display: inline-block;
+    font-size: 12px;
+    letter-spacing: 1px;
+    padding: 4px 10px 3px;
+    text-decoration: none;
+    transition: 0.3s background-color;
+  }
+  .tag-list ul li a:hover {
+    background-color: #9ae13e;
+  }
+  
+  
+
+.echbay-sms-messenger div.phonering-alo-zalo, 
+.echbay-sms-messenger div.phonering-alo-alo {
+	background-color:#0084ff
+}
+.echbay-sms-messenger div.phonering-alo-sms {
+	background-color:#f60
+}
+.echbay-sms-messenger div.phonering-alo-messenger {
+	background-color:#e60f1e
+}
+ 
+.echbay-sms-messenger {
+	width:45px
+}
+.echbay-sms-messenger a {
+	line-height:45px;
+        color: transparent;
+display:block;
+}
+.echbay-sms-messenger {
+	display:block
+}
+.echbay-sms-messenger div.phonering-alo-zalo {
+	display: block
+}
+ 
+.echbay-sms-messenger div.phonering-alo-alo {
+    background-image: url(http://codfe.com/wp-content/uploads/2020/08/call.png);
+}
+.echbay-sms-messenger div.phonering-alo-sms {
+    background-image: url(http://codfe.com/wp-content/uploads/2020/08/mail.png);
+    background-color: #f60;
+    background-size: 60%;
+}
+.echbay-sms-messenger div.phonering-alo-zalo {
+    background-image: url(http://codfe.com/wp-content/uploads/2020/08/zalo.png);
+}
+.echbay-sms-messenger div.phonering-alo-messenger {
+    background-image: url(http://codfe.com/wp-content/uploads/2020/08/messenger.png);
+    background-color: #e60f1e;
+}
+.echbay-sms-messenger div {
+    margin: 14px 0;
+    background: #0084FF center no-repeat;
+    background-size: 70%;
+    border-radius: 50%;
+    box-shadow: 0 3px 10px #888;
+}
+ 
+.echbay-sms-messenger {
+    text-align: center;
+    right:20px;
+    position: fixed;
+    bottom: 20px;
+    z-index: 999;
+}
